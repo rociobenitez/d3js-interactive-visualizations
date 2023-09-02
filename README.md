@@ -10,6 +10,8 @@ En este primer ejemplo, se presenta una gráfica de barras horizontales interact
 - Interacción con un control deslizante para seleccionar el año.
 - Procesamiento de datos para mostrar la distribución de títulos por año.
 
+![Gráfica de Barras Horizontales de Mundiales de Selecciones](img/example-1.png)
+
 ## Ejemplo 2: Gráfica de Edades de Leonardo DiCaprio y Sus Ex Parejas
 
 En el segundo ejemplo, se combinan dos tipos de gráficos para representar la edad de Leonardo DiCaprio a lo largo del tiempo en una gráfica de líneas y la edad de sus ex parejas en una gráfica de barras. Ambos gráficos utilizan la misma escala para facilitar la comparación de las edades.
@@ -20,6 +22,8 @@ Además, se han ñadido interactividad a las barras de la gráfica de ex parejas
 - Combinación de dos tipos de gráficos (líneas y barras) en una sola visualización.
 - Interacción al pasar el ratón para mostrar detalles de las ex parejas.
 - Asociación de colores con cada ex pareja.
+
+![Gráfica de Edades de Leonardo DiCaprio y Sus Ex Parejas](img/example-2.png)
 
 ## Estilos de Materialize
 
