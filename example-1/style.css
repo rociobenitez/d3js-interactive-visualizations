@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    margin: 2rem 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+#exercise {
+    max-width: 680px;
+    font-size: 13px;
+    text-align: center;
+}
+
+#exercise p {
+    padding: 0 32px;
+    color: #34495e;
+}
+
+#slider-time {
+    width: 100%;
+    margin: 0 40px;
+}
+
+#slider-time svg {
+    width: 100%;
+    height: auto;
+}
+
+#slider-time .tick line {
+    stroke: #aeb6bf;
+}
+
+.axis line,
+.axis text {
+    fill:  #aeb6bf;
+    font-size: 10px;
+    font-family: 'Space Mono', monospace;
+    text-anchor: middle;
+}
+
+.track,
+.track-inset,
+.track-overlay {
+    stroke-linecap: round;
+}
+
+.track {
+    stroke:  #d6dbdf;
+}
+.track-inset {
+    stroke: white;
+}
+
+.parameter-value text {
+    font-family: 'Space Mono', monospace;
+    text-anchor: middle;
+    color: #1a5276;
+}
+
+.handle {
+    fill: #a9cce3 ;
+    stroke:  #a9cce3 ;
+}
