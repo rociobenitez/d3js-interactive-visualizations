@@ -2,7 +2,7 @@
 
 Este proyecto es una colección de ejemplos de visualización de datos utilizando la biblioteca D3.js. Aquí se presentan dos ejemplos destacados:
 
-## Ejemplo 1: Gráfica de Barras Horizontales de Mundiales de Selecciones
+## Ejemplo 1: Gráfica de Barras Horizontales de Mundiales de Selecciones 📊
 
 En este primer ejemplo, se presenta una gráfica de barras horizontales interactiva que muestra la distribución de los Mundiales de Fútbol ganados por selecciones nacionales. La gráfica se conecta a un control deslizante que permite al usuario seleccionar un año específico y ver cómo se distribuyen los títulos de ese año entre las selecciones.
 
@@ -12,7 +12,7 @@ En este primer ejemplo, se presenta una gráfica de barras horizontales interact
 
 ![Gráfica de Barras Horizontales de Mundiales de Selecciones](img/example-1.png)
 
-## Ejemplo 2: Gráfica de Edades de Leonardo DiCaprio y Sus Ex Parejas
+## Ejemplo 2: Gráfica de Edades de Leonardo DiCaprio y Sus Ex Parejas 📈
 
 En el segundo ejemplo, se combinan dos tipos de gráficos para representar la edad de Leonardo DiCaprio a lo largo del tiempo en una gráfica de líneas y la edad de sus ex parejas en una gráfica de barras. Ambos gráficos utilizan la misma escala para facilitar la comparación de las edades.
 
@@ -25,7 +25,18 @@ Además, se han ñadido interactividad a las barras de la gráfica de ex parejas
 
 ![Gráfica de Edades de Leonardo DiCaprio y Sus Ex Parejas](img/example-2.png)
 
-## Estilos de Materialize
+## Ejemplo 3: Gráfica del IBEX 📉
+
+En el tercer ejemplo, representamos datos del IBEX en una gráfica de línea que muestra el valor de cierre de mercado a lo largo del tiempo. Justo debajo, en la misma escala de tiempo, presentamos una gráfica de barras donde el eje y representa el volumen de mercado.
+
+### Funcionalidades clave:
+- Visualización de datos del IBEX en una gráfica de línea y de barras.
+- Representación del valor de cierre de mercado y el volumen de mercado.
+- Uso de la misma escala de tiempo para ambas visualizaciones.
+
+![Gráfica del IBEX](img/example-3.png)
+
+## Estilos de Materialize 
 
 Para mejorar la apariencia de estos ejemplos, se han incorporado algunos estilos de la biblioteca Materialize CSS. Esto proporciona una experiencia de usuario más atractiva y coherente.
 
