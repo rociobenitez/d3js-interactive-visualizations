@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #eceff1;
+}
+
+#enunciado {
+    padding-bottom: 0;
+}
+
+#enunciado p {
+    color: #90a4ae;
+}
+
+#chart {
+    padding-bottom: 0;
+}
+
+#chart-2 {
+    padding-top: 0;
+}
+
+#tooltip {
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 4px; 
+    padding: 8px;
+    font-size: 12px;
+    position: absolute; 
+    font-family: 'Red Hat Mono', monospace;
+    color: #455a64;
+}
+
+#tooltip b {
+    color: #263238;
+}
