@@ -16,7 +16,7 @@ Cada ejemplo se encuentra en una carpeta independiente y puede ejecutarse de for
 - Un control deslizante permite seleccionar un año específico y actualizar la visualización dinámicamente.
 - Uso de animaciones y escalas para transición fluida.
 
-**Carpeta:** `example-1/`
+**Carpeta:** [`example-1/`](example-1/)
 
 <img src="img/example-1.png" alt="Gráfica de Barras Horizontales de Mundiales de Selecciones" width="500">
 
@@ -31,7 +31,7 @@ Cada ejemplo se encuentra en una carpeta independiente y puede ejecutarse de for
 - Tooltip interactivo con información de cada relación y diferencia de edad.
 - Colores únicos asignados a cada pareja.
 
-**Carpeta:** `example-2/`
+**Carpeta:** [`example-2/`](example-2/)
 
 <img src="img/example-2.png" alt="Gráfica de Edades de Leonardo DiCaprio y Sus Ex Parejas" width="500">
 
@@ -45,7 +45,7 @@ Cada ejemplo se encuentra en una carpeta independiente y puede ejecutarse de for
 - Gráfica de barras con volumen de mercado bajo la misma escala de tiempo.
 - Ideal para análisis temporal y financiero básico.
 
-**Carpeta:** `example-3/`
+**Carpeta:** [`example-3/`](example-3/)
 
 <img src="img/example-3.png" alt="Gráfica del IBEX" width="500">
 
