@@ -54,13 +54,13 @@ Cada ejemplo se encuentra en una carpeta independiente y puede ejecutarse de for
 1. Clona el proyecto:
 
    ```bash
-   git clone https://github.com/your-username/d3js-examples.git
+   git clone git@github.com:rociobenitez/d3js-interactive-visualizations.git
    ```
 
 2. Navega a la carpeta del ejemplo que deseas visualizar y ejecuta el archivo `index.html` en tu navegador:
 
    ```bash
-   cd d3js-examples/example-1
+   cd d3js-interactive-visualizations/example-1
    ```
 
 3. Asegúrate de tener los permisos necesarios si abres archivos locales (Chrome puede bloquearlo sin un servidor local).
