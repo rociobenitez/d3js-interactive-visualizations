@@ -4,4 +4,6 @@
 # Node/D3JS
 node_modules/
 dist/
+
+# Entorno
 .env
