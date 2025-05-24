@@ -1,0 +1,7 @@
+# Sistema macOS
+.DS_Store
+
+# Node/D3JS
+node_modules/
+dist/
+.env
