@@ -1,55 +1,66 @@
-# Ejemplos de Gráficas con D3.js
+# D3.js – Ejemplos Interactivos de Visualización de Datos
 
-Este proyecto es una colección de ejemplos de visualización de datos utilizando la biblioteca D3.js. Aquí se presentan dos ejemplos destacados:
+Este proyecto es una colección de visualizaciones desarrolladas con la biblioteca **[D3.js](https://d3js.org/)**, diseñadas para explorar distintos enfoques de representación de datos con interactividad, escalabilidad y claridad visual.
 
-## Ejemplo 1: Gráfica de Barras Horizontales de Mundiales de Selecciones 📊
+Cada ejemplo se encuentra en una carpeta independiente y puede ejecutarse de forma local desde un navegador. Se ha utilizado la librería **[Materialize CSS](https://materializecss.com/)** para mejorar la presentación visual.
 
-En este primer ejemplo, se presenta una gráfica de barras horizontales interactiva que muestra la distribución de los Mundiales de Fútbol ganados por selecciones nacionales. La gráfica se conecta a un control deslizante que permite al usuario seleccionar un año específico y ver cómo se distribuyen los títulos de ese año entre las selecciones.
+## Contenido del Proyecto
 
-### Funcionalidades clave:
-- Interacción con un control deslizante para seleccionar el año.
-- Procesamiento de datos para mostrar la distribución de títulos por año.
+### Ejemplo 1 - Gráfica de Barras Horizontales: Mundiales de Fútbol
 
-![Gráfica de Barras Horizontales de Mundiales de Selecciones](img/example-1.png)
+**Objetivo:** Visualizar cuántas veces ha ganado cada selección nacional la Copa del Mundo.
 
-## Ejemplo 2: Gráfica de Edades de Leonardo DiCaprio y Sus Ex Parejas 📈
+**Descripción:**
 
-En el segundo ejemplo, se combinan dos tipos de gráficos para representar la edad de Leonardo DiCaprio a lo largo del tiempo en una gráfica de líneas y la edad de sus ex parejas en una gráfica de barras. Ambos gráficos utilizan la misma escala para facilitar la comparación de las edades.
+- Gráfica de barras horizontales ordenadas por número de títulos.
+- Un control deslizante permite seleccionar un año específico y actualizar la visualización dinámicamente.
+- Uso de animaciones y escalas para transición fluida.
 
-Además, se han ñadido interactividad a las barras de la gráfica de ex parejas. Al pasar el ratón sobre cada barra, se muestran los datos de cada ex pareja, incluyendo la diferencia de edad en ese momento con Leonardo DiCaprio. Cada color de barra está asociado a una ex pareja.
+**Carpeta:** `example-1/`
 
-### Funcionalidades clave:
-- Combinación de dos tipos de gráficos (líneas y barras) en una sola visualización.
-- Interacción al pasar el ratón para mostrar detalles de las ex parejas.
-- Asociación de colores con cada ex pareja.
+<img src="img/example-1.png" alt="Gráfica de Barras Horizontales de Mundiales de Selecciones" width="500">
 
-![Gráfica de Edades de Leonardo DiCaprio y Sus Ex Parejas](img/example-2.png)
+### Ejemplo 2 - Gráfica combinada: Edad de Leonardo DiCaprio y sus ex parejas
 
-## Ejemplo 3: Gráfica del IBEX 📉
+**Objetivo:** Comparar la edad de Leonardo DiCaprio y la de sus ex parejas en distintos años.
 
-En el tercer ejemplo, representamos datos del IBEX en una gráfica de línea que muestra el valor de cierre de mercado a lo largo del tiempo. Justo debajo, en la misma escala de tiempo, presentamos una gráfica de barras donde el eje y representa el volumen de mercado.
+**Descripción:**
 
-### Funcionalidades clave:
-- Visualización de datos del IBEX en una gráfica de línea y de barras.
-- Representación del valor de cierre de mercado y el volumen de mercado.
-- Uso de la misma escala de tiempo para ambas visualizaciones.
+- Línea de tiempo con la edad de DiCaprio.
+- Barras que representan la edad de cada ex pareja en el mismo año.
+- Tooltip interactivo con información de cada relación y diferencia de edad.
+- Colores únicos asignados a cada pareja.
 
-![Gráfica del IBEX](img/example-3.png)
+**Carpeta:** `example-2/`
 
-## Estilos de Materialize 
+<img src="img/example-2.png" alt="Gráfica de Edades de Leonardo DiCaprio y Sus Ex Parejas" width="500">
 
-Para mejorar la apariencia de estos ejemplos, se han incorporado algunos estilos de la biblioteca Materialize CSS. Esto proporciona una experiencia de usuario más atractiva y coherente.
+### Ejemplo 3: - Gráfica del IBEX 📉
 
-### Cómo Usar Materialize en tu Proyecto
+**Objetivo:** Representar el comportamiento del mercado en el IBEX 35 a través de dos métricas clave.
 
-Para incluir los estilos de Materialize en tu proyecto, puedes agregar el siguiente enlace en el `<head>` de tu archivo HTML:
+**Descripción:**
 
-```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-```
+- Gráfica de líneas para mostrar el valor de cierre del índice bursátil.
+- Gráfica de barras con volumen de mercado bajo la misma escala de tiempo.
+- Ideal para análisis temporal y financiero básico.
 
----
+**Carpeta:** `example-3/`
 
-Este README proporciona una visión general de los ejemplos de gráficas presentados en este proyecto. ¡Explora los ejemplos y diviértete experimentando con visualizaciones de datos interactivas!
+<img src="img/example-3.png" alt="Gráfica del IBEX" width="500">
 
-¡Gracias por utilizar este proyecto y disfruta explorando las posibilidades de D3.js!
+## Cómo usar este repositorio
+
+1. Clona el proyecto:
+
+   ```bash
+   git clone https://github.com/your-username/d3js-examples.git
+   ```
+
+2. Navega a la carpeta del ejemplo que deseas visualizar y ejecuta el archivo `index.html` en tu navegador:
+
+   ```bash
+   cd d3js-examples/example-1
+   ```
+
+3. Asegúrate de tener los permisos necesarios si abres archivos locales (Chrome puede bloquearlo sin un servidor local).
